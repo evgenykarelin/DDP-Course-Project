@@ -8,6 +8,7 @@ shinyUI(fluidPage(
   
   sidebarLayout(
     sidebarPanel(
+        helpText("Adjust sliders to change mean and std of plot."),
        sliderInput("mean",
                    "Mean:",
                    min = -10,
